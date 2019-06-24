@@ -1,0 +1,320 @@
+
+/*Design pour ordinateur*/
+#container {
+	min-width: 470px;
+	margin:0 auto;
+}
+body {
+	background-color: black;
+	color: #707173;
+	font-family: Montserrat, Arial, sans-serif;
+	margin: 0;
+}
+h1 {
+	font-size: 50px;
+	font-weight: lighter;
+}
+h2 {
+	font-size: 40px;
+	font-weight: lighter;
+	text-align: left;
+	margin: 0;
+}
+p {
+	font-size: 15px;
+	font-weight: normal;
+	color: white;
+	line-height : 25px;
+	margin: 0;
+	padding: 0;
+}
+#menu {
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	padding: 10px;
+  	margin-top: 0;
+  	height: 50px;
+}
+.fixed {
+    position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	padding-top: 100px;
+  	padding-right: 50px;
+}
+#menu img {
+	width: 40px;
+	margin-left: 10px;
+	top: 20px;
+	left: 20px;
+}
+#logo {
+	width: 50px;
+	margin: 0;
+	float: left;
+}
+#menu ul {
+	text-align: right;
+	padding-right: 10px;
+}
+#menu li {
+	list-style: none;
+	display: inline-block;
+	font-size: 15px;
+	height: 20px;
+	padding-right: 10px;
+}
+#menu a {
+	color: #707173;
+	text-decoration: none;
+	margin-right: 20px;
+}
+#menu li a:hover {
+
+    font-weight: bold;
+    padding: 20px 8px;
+    height: 10px;
+}
+#menu li a:visited {
+	font-weight: bold;
+	color: #937d1a;
+	border: 1px solid #937d1a;
+}
+#mail img {
+	width: 30px;
+	padding-right: 10px;
+}
+
+
+/* Provisoire*/
+#slider {
+	background-color: black;
+	height: 500px;
+}
+#slider img {
+	margin: auto;
+	display: block;
+	width: 300px;
+}
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+.style {
+	width: 400px;
+	margin: auto;
+}
+#fixes {
+	text-align: center;
+}
+
+.point {
+	color: #937d1a;
+	font-size: 40px;
+	font-weight: bold;
+}
+#section3 {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	height: 500px;
+}
+#texte {
+	display: inline;
+	max-width: 500px;
+	margin: 30px 20px 0 20px;
+}
+#texte p {
+	text-align: center;
+	margin: 0;
+}
+#section4 {
+	height: 800px;
+   	width: 100%;
+}
+#section4 div {
+	display: inline-block;
+	min-width: 400px;
+}
+#imageConcert {
+	float: left;
+	width: 60%;
+	min-width: 400px;
+}
+#imageDance {
+	float: right;
+	width: 40%;
+	min-width: 300px;
+}
+#section4 div.titre1 {
+	float: left;
+	height: 150px;
+}
+#section4 div h2 {
+	margin: 50px 0 10px 20px;
+}
+#texte1 {
+	text-align: right;
+	width: 60%;
+	margin: 20px 0 0 50px;
+}
+#section4 div p {
+	width: 400px;
+	min-height: 200px;
+	float: right;
+}
+#section5 {
+	height: 600px;
+	min-height: 300px
+   	width: 100%;
+}
+#section5 div {
+	display: inline;
+}
+#section5 div h2 {
+	text-align: center;
+	display: inline;
+	float: right;
+	margin-left: 20px;
+}
+#imageAnniversaire {
+	width: 57%;
+	min-width: 400px;
+	float: right;
+}
+#titre2 {
+	float: left;
+	width: 57%;
+	min-width: 400px;
+	margin-top: 10px;
+}
+#section5 p {
+	text-align: right;
+	display: inline;
+	float: right;
+	max-width: 400px;
+	min-width: 300px;
+	height: 150px;
+	padding: 23px 0 0 10px;
+}
+#section6 {
+	height: 700px;
+	min-height: 300px;
+   	width: 100%;
+}
+#imDan {
+	width: 100%;
+	margin: 0;
+}
+#imageDance2 {
+	width: 60%;
+	float: left;
+	min-width: 400px;
+}
+#titre3 {
+	height: 200px;
+	width: 90%;
+	min-width: 400px;
+	float: left;
+	padding: 10px 0 0 10px;
+}
+#section6 h2 {
+	width: 300px;
+	bottom: 0pt;
+	float: right;
+	padding: 0 50px 10px 30px;
+}
+#section6 p {
+	text-align: right;
+	width: 40%;
+	min-width: 300px;
+	margin: 0;
+	float: right;
+}
+#section7 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 550px;
+	min-width: 470px;
+}
+#section7 h2 {
+	margin-bottom: 20px;
+}
+#section7 h4 {
+	width: 300px;
+	min-width: 200px;
+	text-align: center;
+}
+#section7 h3 {
+	color: white;
+	font-weight: lighter;
+}
+#bouton_appel {
+	width: 100px;
+}
+#reseaux_sociaux {
+	height: 50px;
+}
+#reseaux_sociaux img {
+	width: 30px;
+}
+#section7 p {
+	font-weight: lighter;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
